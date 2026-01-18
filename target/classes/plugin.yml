@@ -1,0 +1,20 @@
+name: PleiadesPVP
+version: '1.0-SNAPSHOT'
+main: me.Pleiades.pleiadesPVP.PleiadesPVP
+api-version: '1.21'
+commands:
+  fly:
+    description: Toggles flying for the command sender.
+    usage: /fly
+    aliases: [f, flying, togglefly]
+    permission: fly
+    permission-message: You can't fly, loser!
+  menu:
+    description: Open a custom menu
+    usage: /menu
+  createenergyscore:
+    description: Creates the energy score
+    usage: /createenergyscore
+  startgame:
+    description: Starts the game
+    usage: /startgame
